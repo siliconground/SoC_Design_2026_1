@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //tb_comparator.v
 
-module tb_comparator_4bit();
+module tb_comparator();
 
   // 입력 및 출력 신호 정의
   reg [3:0] a, b;
