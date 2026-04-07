@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 // tb_peri_mux_io.v
-module gpio_mux_tb;
+module tb_peri_mux_io;
 
     reg [1:0] sel;
     reg tx0;
@@ -10,7 +10,7 @@ module gpio_mux_tb;
     wire gpio_pin;
 
     // DUT (Device Under Test) 인스턴스화
-    gpio_mux dut (
+    peri_mux_io dut (
         .sel(sel),
         .tx0(tx0),
         .rx0(rx0),

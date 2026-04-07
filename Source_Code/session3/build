@@ -1,0 +1,3 @@
+xvlog ./led_control.v
+xelab led_control -debug wave -s led_control
+xsim led_control -R # no waveform 

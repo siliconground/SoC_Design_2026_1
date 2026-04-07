@@ -1,0 +1,3 @@
+xvlog ./*.v
+xelab tb_bcd_to_7seg -debug wave -s tb_bcd_to_7seg
+xsim tb_bcd_to_7seg -gui -wdb simulate_xsim_bcd_to_7seg.wdb

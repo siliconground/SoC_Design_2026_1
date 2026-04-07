@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 //peri_mux_io.v
-module gpio_mux (
+module peri_mux_io (
     input wire [1:0] sel,       // 2비트 선택 신호
     input wire tx0,             // UART0 Tx 신호
     input wire rx0,             // UART0 Rx 신호
